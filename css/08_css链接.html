@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>CSS link样式</title>
+    <style>
+      /* 必须严格按照a:link, a:visited, a:hover, a:active的顺序
+         才能看到效果。*/
+      a:link
+      {
+        color:#000000; /* 未访问的链接 */
+      }
+      a:visited
+      {
+        color:#00FF00; /* 已经访问的链接 */
+      }
+      a:hover
+      {
+        color:#FF00FF; /* 鼠标移动到链接上 */
+      }
+      a:active
+      {
+        color:#0000FF; /* 鼠标点击时 */
+      }
+    </style>
+  </head>
+  <body>
+    <p><b><a href="https://www.google.com" target="_blank">这是一个链接</a></b></p>
+  </body>
+
+</html>
